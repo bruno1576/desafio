@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Exercicio 3",
+  "main": "teste",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Bruno Lima dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
