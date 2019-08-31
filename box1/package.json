@@ -1,0 +1,19 @@
+{
+  "name": "packgen",
+  "version": "1.0.0",
+  "description": "Packgen exercicio 1",
+  "main": "teste",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  
+  "author": "Bruno Lima Dos Santos",
+  "license": "ISC"
+}
