@@ -15,7 +15,6 @@ function superSort(array)
              }
         }
 
-
       }
       return array;
 }
