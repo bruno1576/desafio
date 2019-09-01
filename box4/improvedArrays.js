@@ -4,7 +4,6 @@ function improvedArrays(items)
     return sortedArray;
 }
 
-var items = [5,3,7,6,2,9];
 function partition(items, esquerda, direita) {
     var pivot   = items[Math.floor((direita + esquerda) / 2)], 
        i        = esquerda, 
