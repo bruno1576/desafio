@@ -5,7 +5,6 @@ import CadastroBox from './cadastro';
 function App() {
   return (
 
-
 <div className="container">
 	<div className="d-flex justify-content-center h-100">
 		<div className="card">
@@ -31,7 +30,6 @@ function App() {
 		</div>
 	</div>
 </div>
-
 
   );
 }

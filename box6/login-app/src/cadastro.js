@@ -67,7 +67,7 @@ export default class CadastroBox extends Component{
     render() {
         return(
           <div>
-            <FormularioCadastro />
+            <FormularioCadastro  />
           </div>
         );
       }
