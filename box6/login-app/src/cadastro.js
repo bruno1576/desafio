@@ -3,17 +3,13 @@ import React, { Component } from 'react';
 import InputCustomizado from './componentes/InputCustomizado';
 
 export class FormularioCadastro extends Component{
- 
-   
-            
+          
             constructor() {
-                super();
-               
+                super();             
                 this.enviaForm = this.enviaForm.bind(this);
                 this.state ='';
-              
               }
-        
+
               enviaForm(evento){
              
                 evento.preventDefault();
@@ -22,7 +18,6 @@ export class FormularioCadastro extends Component{
               }
               
               render() {       
-            
 
           return (
             <div>
@@ -37,14 +32,10 @@ export class FormularioCadastro extends Component{
                         </i>
                         </span>
                 </div>
-                
+
                 <InputCustomizado id="login" className="form-control" type="text" name="login" placeholder="Login"/>                                              
                			
-					</div>
-
-
-
-                    
+					</div>                    
 					<div className="input-group form-group">
 						<div className="input-group-prepend">
 							<span className="input-group-text">
@@ -69,11 +60,9 @@ export class FormularioCadastro extends Component{
       
                  );
           }
-
 }
 
 export default class CadastroBox extends Component{
-
         
     render() {
         return(
